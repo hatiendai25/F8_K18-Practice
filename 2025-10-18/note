@@ -1,0 +1,43 @@
+ve cau tao
+    - the du: dau du cap the dong-mo
+        exp: html, body
+    - thẻ rỗng: không có thẻ đóng
+        exp: meta
+
+    về tính chất
+            - block
+                là 1 block chiếm 100% vỉewport
+                exp: div,
+                h1->h6
+
+            - inline
+                dùng đến đâu thì rỗng đến đấy, nếu dài hơn viewport -> xuống dòng
+                exp: span
+                br
+                img
+
+    SEO:
+        - ngữ nghĩa
+        div, span không có nghĩa gì về SEO
+
+    div:
+        không có ý nghĩa về SEO, không có ngữ nghĩa
+        gom nhóm các thành phần lại với nhau
+
+    span:
+        không có ngữ nghĩa
+
+    heading:
+        h1, h2, h3, h4, h5, h6 là các thẻ block
+        nhấn mạnh thông tin
+            h1: mạnh nhất, 1 page chỉ nên có duy nhất 1 thẻ h1
+            không được nhảy cóc thẻ
+
+    p: là thẻ block, sử dung để triển khai 1 đoan văn bản, có khoảng cách nhất định
+    br: xuống dòng, là thẻ inline, là thẻ inline, không có ngữ nghĩa gì
+    img: hiển thị ảnh, thẻ rỗng (self-closing)
+        src: đường dẫn
+        alt: gợi ý hình ảnh (nếu ảnh lỗi)
+        width: chiều rộng ảnh
+        height: chiều cao ảnh
+        title: tiều đề ảnh
