@@ -41,3 +41,30 @@ ve cau tao
         width: chiều rộng ảnh
         height: chiều cao ảnh
         title: tiều đề ảnh
+
+a:
+    thẻ điều hướng
+    attribute:
+        href: required
+    thẻ inline
+
+html
+<p>Thi xe <a href="https://www.youtube.com" target="_blank">o day</a></p>
+
+pug
+p thi xe
+    a(href="https://www.youtube.com" target="_blank") o day
+
+<p>
+    <span>
+        <a></a>
+    </span>
+<p>
+-> a không phải con trực tiếp
+
+ul/li
+    thẻ danh sách
+    là thẻ block
+ol/li
+    thẻ danh sách đã sắp xép
+    là thẻ block
