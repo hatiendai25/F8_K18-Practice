@@ -68,3 +68,26 @@ ul/li
 ol/li
     thẻ danh sách đã sắp xép
     là thẻ block
+
+i:
+    in nghiêng, không có ngữ nghĩa
+em:
+    giống thẻ i về hình thức
+    có ý nghĩa nhấn mạnh
+b:
+    in đậm, không có ngữ nghĩa
+    thẻ đủ
+strong:
+    giống thẻ b vè hình thức
+    có ý nghĩa nhấn mạnh
+mark:
+    bôi đậm
+ins:
+    gạch chân
+li khi nằm trong thẻ i, mang 1 số tính chất của thẻ cha -> số 3 in nghiêng
+
+table
+    th: table header
+    hàng tr: table row
+    cột td: table data
+
