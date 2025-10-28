@@ -91,3 +91,42 @@ table
     hàng tr: table row
     cột td: table data
 
+________
+
+form / button / input / label / select - option
+
+input
+    placeholder: gợi ý xem ở đây nhập gì
+    value: giá trị sẽ được điền mặc định
+    name:
+        tên của input
+    type:
+        password: hiển thị * thay vì hiển thị value
+        text: type mặc định
+        number: nhập email, check co '@' không
+form:
+    method: phương thức (post/get/put/path)
+    action: hành động
+
+điều kiện:
+    - thẻ form phải có action + method nếu không truyền method -> mặc định là method GET
+    - input type là submit
+Hàng động:
+    Khi bấm nút submit thì dữ liệu sẽ được gửi đến link trong action với method đã được định nghĩa
+
+get: dữ liệu được gửi qua url
+    hạn chế
+        - limit
+        - kém bảo mật hơn
+    -> method mặc định của trình duyệt
+post / put / path: dữ liệu không được gửi qua url
+
+select - option
+    hiển thị 1 danh sách sẵn
+    nếu có option không có value sẽ là txt hiển thị trong thẻ option
+    nếu có value, thì giá trị chính là value
+
+css
+    tất cả các thẻ html đều có css mặc định
+    có 3 cách viết:
+        - inline css: viết trong attribute style

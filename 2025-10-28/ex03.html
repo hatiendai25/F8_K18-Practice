@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://api-gateway.fullstack.edu.vn/action_page.php" method="post">
+        <label for="user">Tên đăng nhập</label>
+        <input id="user" placeholder="username" value="test" type="text" name="user">
+        <br>
+        <label for="pass">Mật khẩu</label>
+        <input id="pass" placeholder="Password" type="password" name="pass">
+        <br>
+        <label for="age">Tuổi</label>
+        <input id="age" placeholder="Age" type="number" name="age">
+        <br>
+        <label for="mail">Email</label>
+        <input id="mail" type="email" placeholder="Email" name="mail">
+        <br>
+        <span>Bạn thích con gì</span>
+        <br><label for="cat">Thịt mèo</label><input id="cat" type="checkbox" name="foot[]" value="cat">
+        <br><label for="dog">Thịt chó</label><input id="dog" type="checkbox" name="foot[]" value="dog">
+        <br><label for="pig">Thịt lợn</label><input id="pig" type="checkbox" name="foot[]" value="pig">
+        <br>
+        <label>Giới tính</label>
+        <br>
+        <label for="female">Nữ</label><input id="female" type="radio" name="gender" value="female">
+        <br><label for="male">Nam</label><input id="male" type="radio" name="gender" value="male">
+        <br><label for="other">Khác</label><input id="other" type="radio" name="gender" value="other">
+        <br>
+        <span>Bạn làm nghề gì</span>
+        <select name="address">
+            <option value="IT">IT</option>
+            <option value="doctor">Bác sĩ</option>
+            <option value="teacher">Giáo viên</option>
+        </select>
+        <br>
+<!--        <input type="submit">-->
+        <button type="button">ok</button>
+        <a href="ex02.html"><button>Dang nhap</button></a>
+        <button><a href="ex02.html">dang</a></button>
+    </form>
+</body>
+</html>
